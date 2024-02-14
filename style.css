@@ -271,6 +271,16 @@ body{
   transition: 0.2s all ease-in-out;
   box-shadow: 3px 5px 10px grey;
 }
+.buttons a{
+  text-decoration:none;
+  color:white;
+}
+.buttons a:visited{
+  color:white;
+}
+.buttons a:focus{
+  color:white;
+}
 .buttons:hover{
   background:linear-gradient(120deg,#034AA6,#2885ff);
   color: #e4f1ff;
