@@ -929,8 +929,11 @@ strong{
     left: 50%;
     transform: translate(-50%,-50%);
     z-index: -1;
-    opacity: 0.3;
-    
+    margin-left: -10%;
+    opacity: 0.2;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
   }
   .buttons-container{
     width: 100%;
@@ -941,6 +944,9 @@ strong{
   .buttons{
     width: 100%;
     margin: 10% 0;
+  }
+  .services-area{
+    margin: 0 5%;
   }
   .services-area .section-container h3{
     font-size: 1.8rem;
@@ -960,9 +966,18 @@ strong{
     margin: 0;
 
   }
+  
   .portfolio-area .section-tabs-container .image-portfolio-area{
-    margin: auto 0;
-    opacity: 0.3;
+    margin: auto 3%;
+    opacity: 0.2;
+    width: 100%;
+    max-width: 480px;
+    height: auto;
+  }
+  .portfolio-area .section-tabs-container .image-portfolio-area div{
+    width: 100%;
+    max-width: 600px;
+    height: auto;
   }
   .portfolio-area .displayer-heading{
     text-align: center;
@@ -1043,6 +1058,12 @@ strong{
   top: 50%;
   left: 50%;
   transform:translate(-50%,-50%);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+}
+.experience-area .section-image-container img{
+  margin-left: -15%;
 }
 .experience-area .experience-displayer .displayer-content-container{
   display: flex;
@@ -1188,4 +1209,5 @@ strong{
   left: 50%;
   transform: translate(-50%,-50%);
 }
+
 }
